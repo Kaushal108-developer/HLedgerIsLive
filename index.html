@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="HLedgerIsLive - BGMI gameplay, UC spins, X-Suit openings and gaming highlights.">
+  <title>HLedgerIsLive | BGMI Gaming</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 20px 7%;
+      background: #11182b;
+    }
+
+    .logo {
+      color: #ff4655;
+      font-size: 23px;
+      font-weight: 800;
+    }
+
+    nav {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    nav a, .video-link {
+      color: white;
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background: radial-gradient(
+        circle at top, #3d2041, #10182c 70%
+      );
+    }
+
+    .tag {
+      color: #fb7185;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 68px);
+      line-height: 1.15;
+      margin: 18px 0;
+    }
+
+    h1 span {
+      color: #ff4655;
+    }
+
+    .hero p {
+      color: #cbd5e1;
+      margin: 0 auto 28px;
+      max-width: 600px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 8px;
+      background: #ff4655;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #e11d48;
+    }
+
+    section.content {
+      padding: 60px 7%;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      padding: 26px;
+      background: #172036;
+      border: 1px solid #29344d;
+      border-radius: 14px;
+    }
+
+    .card h3 {
+      color: #fb7185;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #cbd5e1;
+      margin-bottom: 18px;
+    }
+
+    .video-link {
+      color: #7dd3fc;
+    }
+
+    .about {
+      text-align: center;
+      background: #11182b;
+    }
+
+    .about p {
+      max-width: 650px;
+      margin: auto;
+      color: #cbd5e1;
+    }
+
+    footer {
+      padding: 25px 15px;
+      text-align: center;
+      color: #94a3b8;
+    }
+
+    a:focus-visible {
+      outline: 2px solid #7dd3fc;
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+      }
+
+      nav {
+        justify-content: center;
+      }
+
+      .hero {
+        padding: 75px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">HLedgerIsLive</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#videos">Videos</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="tag">WELCOME TO MY GAMING WORLD</div>
+
+      <h1>PLAY. FIGHT.<br><span>CONQUER.</span></h1>
+
+      <p>
+        BGMI gameplay, 10 UC lucky spins,
+        X-Suit openings and epic gaming moments.
+        Welcome to HLedgerIsLive!
+      </p>
+
+      <a class="btn"
+         href="https://www.youtube.com/channel/UC87P5fYjaSe2NnpTAw1O0Qw"
+         target="_blank"
+         rel="noopener noreferrer">
+        ▶ VISIT MY YOUTUBE CHANNEL
+      </a>
+    </section>
+
+    <section class="content" id="videos">
+      <h2>My Gaming Content</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>🎮 BGMI Gameplay</h3>
+          <p>Epic fights, action and chicken dinners.</p>
+          <a class="video-link"
+             href="https://www.youtube.com/channel/UC87P5fYjaSe2NnpTAw1O0Qw"
+             target="_blank"
+             rel="noopener noreferrer">Watch on YouTube →</a>
+        </article>
+
+        <article class="card">
+          <h3>🎁 10 UC Lucky Spins</h3>
+          <p>Lucky spins, rewards and crate openings.</p>
+          <a class="video-link"
+             href="https://www.youtube.com/channel/UC87P5fYjaSe2NnpTAw1O0Qw"
+             target="_blank"
+             rel="noopener noreferrer">Watch on YouTube →</a>
+        </article>
+
+        <article class="card">
+          <h3>🔥 X-Suit Openings</h3>
+          <p>New X-Suits, outfits and event highlights.</p>
+          <a class="video-link"
+             href="https://www.youtube.com/channel/UC87P5fYjaSe2NnpTAw1O0Qw"
+             target="_blank"
+             rel="noopener noreferrer">Watch on YouTube →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="content about" id="about">
+      <h2>About HLedgerIsLive</h2>
+      <p>
+        Hey gamers! I share BGMI gameplay,
+        10 UC spins, X-Suit openings and
+        exciting gaming highlights.
+        Subscribe and join my gaming family!
+      </p>
+      <br>
+      <a class="btn"
+         href="https://www.youtube.com/channel/UC87P5fYjaSe2NnpTAw1O0Qw"
+         target="_blank"
+         rel="noopener noreferrer">Subscribe</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 HLedgerIsLive. All rights reserved.
+  </footer>
+</body>
+</html>
